@@ -1,12 +1,12 @@
+package GetLadder;
+
 import java.io.*;
 import java.util.HashMap;
-import java.util.Map;
-import java.util.Iterator;
-import java.util.TreeSet;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.TreeSet;
 public class GetLadder {
-    public  String GetLadder(String beginWord, String endWord, String filename){
+    public  String GetLadderStr(String beginWord, String endWord, String filename){
         Solution yuanlairuci=new Solution();
         Set<String> wordDict=GetSet(filename);
         HashMap<String,String> Path=yuanlairuci.GetPathMap(beginWord,endWord,wordDict);
@@ -39,7 +39,7 @@ public class GetLadder {
     public Set<String> GetSet(String filename){
         Set<String> set= new TreeSet<String>();
         try {
-            File file = new File("D:\\github_code\\Java_learning\\src\\main\\java\\dictionary.txt");
+            File file = new File(filename);
             FileInputStream fis = new FileInputStream(file);
             InputStreamReader isr = new InputStreamReader(fis);
             BufferedReader br = new BufferedReader(isr);
@@ -70,7 +70,7 @@ public class GetLadder {
 
         GetLadder abc=new GetLadder();
 //        Set<String> wordDict=abc.GetSet("dictionary.txt");
-        String Ladder=abc.GetLadder(beginWord,endWord,"dictionary.txt");
+        String Ladder=abc.GetLadderStr(beginWord,endWord, "D:\\github_code\\Java_learning\\src\\main\\java\\GetLadder\\dictionary.txt");
         System.out.print(Ladder);
     }
 }

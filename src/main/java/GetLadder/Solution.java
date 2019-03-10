@@ -1,3 +1,5 @@
+package GetLadder;
+
 import java.util.*;
 public class Solution {
     public HashMap<String,String> GetPathMap(String beginWord, String endWord, Set<String> wordDict) {
