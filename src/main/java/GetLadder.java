@@ -14,13 +14,17 @@ public class GetLadder {
         StringBuilder builder=null;
         String tmpStr=endWord;
         builder = new StringBuilder(tmpStr);
-        builder.append("<--");
+//        builder.append("<--");
+        if (Path.get(tmpStr)==null){
+            return  "No way!";
+        }
         while (tmpStr!=beginWord && tmpStr!="None"){
+            builder.append("<--");
             tmpStr=Path.get(tmpStr);
             builder.append(tmpStr);
-            builder.append("<--");
+//            builder.append("<--");
         }
-        builder.append(tmpStr);
+//        builder.append(tmpStr);
         String result = builder.toString();
         return result;
 //        Iterator<Map.Entry<String, String>> iterator = Path.entrySet().iterator();
@@ -35,7 +39,7 @@ public class GetLadder {
     public Set<String> GetSet(String filename){
         Set<String> set= new TreeSet<String>();
         try {
-            File file = new File("dictionary.txt");
+            File file = new File("D:\\github_code\\Java_learning\\src\\main\\java\\dictionary.txt");
             FileInputStream fis = new FileInputStream(file);
             InputStreamReader isr = new InputStreamReader(fis);
             BufferedReader br = new BufferedReader(isr);
@@ -46,11 +50,12 @@ public class GetLadder {
 //                System.out.println(txtLine);
                 set.add(txtLine);
             }
+
             br.close();
 
         }catch (IOException e)
         {
-            System.out.print("Exception");
+            System.out.print("Exception!!!");
         }
 
         return set;
