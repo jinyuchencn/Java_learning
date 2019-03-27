@@ -1,23 +1,20 @@
 package test.GetLadder; 
 
-import GetLadder.GetLadder;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+import org.junit.Test; 
+import org.junit.Before; 
+import org.junit.After; 
 
 /** 
 * GetLadder Tester. 
 * 
 * @author <Authors name> 
-* @since <pre>三月 10, 2019</pre> 
+* @since <pre>三月 15, 2019</pre> 
 * @version 1.0 
 */ 
 public class GetLadderTest { 
 
 @Before
-public void before() throws Exception {
-//    GetLadder ttt = new GetLadder();
+public void before() throws Exception { 
 } 
 
 @After
@@ -31,9 +28,7 @@ public void after() throws Exception {
 */ 
 @Test
 public void testGetLadderStr() throws Exception { 
-//TODO: Test goes here...
-    GetLadder ttt = new GetLadder();
-    assertEquals("pig<--cig<--cag<--bag",ttt.GetLadderStr("bag","pig","D:\\github_code\\Java_learning\\src\\main\\java\\GetLadder\\dictionary.txt"));
+//TODO: Test goes here... 
 } 
 
 /** 

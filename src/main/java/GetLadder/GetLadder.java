@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
+
 public class GetLadder {
     public  String GetLadderStr(String beginWord, String endWord, String filename){
         Solution yuanlairuci=new Solution();
