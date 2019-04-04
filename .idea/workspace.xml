@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6708395b-5d0b-4a57-bdf8-4477e3f67a50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/GetLadder/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GetLadder/LadderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GetLadder/GetLadder.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GetLadder/GetLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GetLadder/GetLadder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/GetLadder/GetLadderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/GetLadder/GetLadderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GetLadder/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GetLadder/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GetLadder/Solution.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/GetLadder/GetLadder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GetLadder/GetLadder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/GetLadder/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GetLadder/Input.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GetLadder/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GetLadder/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Java_learning.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GetLadder/Solution.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/test/GetLadder/GetLadderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/GetLadder/GetLadderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Java_learning.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +44,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GetLadder/GetLadder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="-1533">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-162">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GetLadder/LadderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/GetLadder/GetLadderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GetLadder/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,14 +123,17 @@
         <option value="$PROJECT_DIR$/src/main/java/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/input_test.java" />
         <option value="$PROJECT_DIR$/src/main/java/dictionary.txt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/GetLadder.java" />
         <option value="$PROJECT_DIR$/src/main/java/Input.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/GetLadderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/GetLadder/GetLadderTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Solution/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/GetLadder/GetLadder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GetLadder/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GetLadder/LadderController.java" />
       </list>
     </option>
   </component>
@@ -94,8 +149,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="13" />
-    <option name="width" value="1907" />
+    <option name="y" value="6" />
+    <option name="width" value="1914" />
     <option name="height" value="975" />
   </component>
   <component name="ProjectView">
@@ -112,32 +167,6 @@
               <item name="word_ladder" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_learning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="word_ladder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="word_ladder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="word_ladder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="word_ladder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GetLadder" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -147,7 +176,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552614634518" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554339290933" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -157,6 +186,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_code\Java_learning\src\main\java\GetLadder" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Solution" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\github_code\Java_learning\src\main\java\GetLadder" />
     </key>
@@ -173,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GetLadderTest.testGetLadderStr">
+  <component name="RunManager" selected="JUnit.All in Java_learning">
     <configuration name="GetLadder (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GetLadder.GetLadder" />
       <module name="Java_learning" />
@@ -230,8 +265,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GetLadderTest.testGetLadderStr" />
         <item itemvalue="Application.GetLadder (1)" />
+        <item itemvalue="JUnit.GetLadderTest.testGetLadderStr" />
         <item itemvalue="Application.GetLadder" />
         <item itemvalue="Application.Input" />
       </list>
@@ -255,6 +290,11 @@
       <workItem from="1552442967868" duration="2621000" />
       <workItem from="1552610729339" duration="1011000" />
       <workItem from="1552874806325" duration="458000" />
+      <workItem from="1554259583727" duration="1936000" />
+      <workItem from="1554284929798" duration="3637000" />
+      <workItem from="1554294742733" duration="1896000" />
+      <workItem from="1554298229992" duration="1828000" />
+      <workItem from="1554337622435" duration="1660000" />
     </task>
     <servers />
   </component>
@@ -265,9 +305,15 @@
     <history-entry file="GetLadderTest_testGetLadderStr - 2019.03.13 at 10h 10m 13s.xml">
       <configuration name="GetLadderTest.testGetLadderStr" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GetLadderTest_testGetLadderStr - 2019.04.03 at 20h 56m 55s.xml">
+      <configuration name="GetLadderTest.testGetLadderStr" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Java_learning - 2019.04.03 at 20h 58m 17s.xml">
+      <configuration name="All in Java_learning" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20599000" />
+    <option name="totallyTimeSpent" value="31556000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,17 +326,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1431" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20830299" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22286963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22083981" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32881355" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5457627" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44012442" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -298,10 +346,12 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32970452" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.40279937" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2440678" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32970452" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.4898305" />
       <window_info anchor="bottom" id="Dependency Viewer" order="13" weight="0.58786935" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32881355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24981792" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -311,6 +361,7 @@
       <window_info anchor="right" id="Maven" order="6" weight="0.32993445" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -415,29 +466,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/input_test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/test/SolutionTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/GetLadder/Input.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GetLadder/GetLadder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GetLadder/Input.class" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/test/GetLadderTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/GetLadder/dictionary.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="221922" lean-forward="true" selection-start-line="221922" selection-end-line="221922" />
+        <state relative-caret-position="286">
+          <caret line="221922" selection-start-line="221922" selection-end-line="221922" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GetLadder/GetLadder.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/GetLadder/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution/Solution.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/GetLadder/Input.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -445,34 +486,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GetLadder/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/test/GetLadder/GetLadderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="486">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GetLadder/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GetLadder/GetLadder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="-1533">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GetLadder/LadderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
