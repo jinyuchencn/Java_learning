@@ -15,3 +15,4 @@ for learning java
     1、添加了spring security使用Ladder前，需要输入用户名密码（写死在application.properties中）
 ## Spring boot actuator
     1、添加了actuator，在login后可以使用actuator进行监听 
+    2、暴露了除beans和env之外的所有端口
