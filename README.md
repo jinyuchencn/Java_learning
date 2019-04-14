@@ -9,4 +9,7 @@ for learning java
     1、在根目录中Terminal 输入mvn spring-boot:run来启动服务
     2、提供了2种传参方式
         a、http://localhost:8080/Ladder?b=apple&e=happy，其中b表示beginword，e表示endword
-        b、http://localhost:8080/Ladder/apple/happy，其中第一个单词为beginword，第二个单词为endword 
+        b、http://localhost:8080/Ladder/apple/happy，其中第一个单词为beginword，第二个单词为endword
+## Spring boot security
+    1、添加了spring security使用Ladder前，需要输入用户名密码（写死在application.properties中）
+     
