@@ -12,4 +12,5 @@ for learning java
         b、http://localhost:8080/Ladder/apple/happy，其中第一个单词为beginword，第二个单词为endword
 ## Spring boot security
     1、添加了spring security使用Ladder前，需要输入用户名密码（写死在application.properties中）
-     
+## Spring boot actuator
+    1、添加了actuator，在login后可以使用actuator进行监听 
