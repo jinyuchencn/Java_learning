@@ -10,3 +10,5 @@ for learning java
     2、提供了2种传参方式
         a、http://localhost:8080/Ladder?b=apple&e=happy，其中b表示beginword，e表示endword
         b、http://localhost:8080/Ladder/apple/happy，其中第一个单词为beginword，第二个单词为endword 
+## homework3
+    请进入homework3分支中的homework3文件夹
